@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from "redux";
 import { Provider, connect } from "react-redux";
-import { faBackspace } from '@fortawesome/free-solid-svg-icons';
 
 const Keys = [
       {
