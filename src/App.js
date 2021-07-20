@@ -396,6 +396,10 @@ class CalApp extends React.Component {
                     clearDis();
                     break;
                 }; 
+                if (chkChar(expression,1,".")) {
+                    bkSpace();
+                    showMsg(keyreplacex);
+                };    
                 setInput(key);
                 break;
             case "=":
