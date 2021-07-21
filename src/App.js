@@ -453,8 +453,8 @@ class CalApp extends React.Component {
         const {output, expression} = this.props;
         return (
             <div className="calBody">
-            <p>Autocorrect Calculator</p>
-            <p>By Jackie Lam | 20 Jul 2021</p>
+            <p>JS Calculator</p>
+            <p>Jackie Lam | 20 Jul 2021</p>
             <Display 
                 exp={expression}
                 val={output}
