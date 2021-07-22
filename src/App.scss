@@ -109,6 +109,7 @@ p {
     border: 1px solid black;
     border-radius: 33% 33% 33% 33% / 35% 35% 35% 35% ;
     box-shadow: 0 0 3px;
+    cursor: pointer;
 };
 @media (max-height:600px) {
     .button {
